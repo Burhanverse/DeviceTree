@@ -1,7 +1,9 @@
 # dependencies
+git clone --depth 1 https://github.com/Burhanverse/CommonTree -b eleven device/xiaomi/mt6768-common
+
 git clone --depth 1 https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768 -b eleven kernel/xiaomi/mt6768
 
-git clone --depth 1 https://github.com/Redmi-MT6768/android_vendor_xiaomi_lava -b eleven vendor/xiaomi/lava
+git clone --depth 1 https://github.com/Burhanverse/VendorTree -b eleven vendor/xiaomi/lava
 
 git clone --depth 1 https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton
 
