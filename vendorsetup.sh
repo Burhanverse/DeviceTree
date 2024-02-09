@@ -7,11 +7,15 @@ export TARGET_KERNEL_BUILD_HOST=burhancodes
 # dependencies
 git clone --depth 1 https://github.com/burhancodes/packages_apps_GoogleCamera_8.1 packages/apps/GoogleCamera_8.1
 
-git clone --depth 1 https://github.com/Burhanverse/CommonTree -b eleven device/xiaomi/mt6768-common
+git clone --depth 1 https://github.com/zubairk22oct/Device_xiaomi_mt6768-common -b eleven device/xiaomi/mt6768-common
 
-git clone --depth 1 https://github.com/Redmi-MT6768/android_kernel_xiaomi_mt6768 -b eleven kernel/xiaomi/mt6768
+git clone --depth 1 https://github.com/Burhanverse/android_kernel_xiaomi_mt6768 -b eleven kernel/xiaomi/mt6768
+cd kernel/xiaomi/mt6768
+echo -e "Patching Kernel for KernelSU..."
+curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -
+cd ../../..
 
-git clone --depth 1 https://github.com/Burhanverse/VendorTree -b eleven vendor/xiaomi/lava
+git clone --depth 1 https://github.com/zubairk22oct/Vendor_xiaomi_lava -b eleven vendor/xiaomi/lava
 
 git clone --depth 1 https://github.com/kdrag0n/proton-clang -b master prebuilts/clang/host/linux-x86/clang-proton
 
