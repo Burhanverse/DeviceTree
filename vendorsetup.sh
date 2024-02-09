@@ -2,8 +2,7 @@ export KBUILD_BUILD_USER=Burhanverse
 export KBUILD_BUILD_HOST=burhancodes
 export BUILD_USERNAME=Burhanverse
 export BUILD_HOSTNAME=burhancodes
-export TARGET_KERNEL_BUILD_USER=Burhanverse
-export TARGET_KERNEL_BUILD_HOST=burhancodes
+
 # dependencies
 git clone --depth 1 https://github.com/burhancodes/packages_apps_GoogleCamera_8.1 packages/apps/GoogleCamera_8.1
 
