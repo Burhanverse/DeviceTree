@@ -6,7 +6,7 @@ export BUILD_HOSTNAME=burhancodes
 # dependencies
 git clone --depth 1 https://github.com/burhancodes/packages_apps_GoogleCamera_8.1 packages/apps/GoogleCamera_8.1
 
-git clone --depth 1 https://github.com/zubairk22oct/Device_xiaomi_mt6768-common -b eleven device/xiaomi/mt6768-common
+git clone --depth 1 https://github.com/zubairk22oct/Device_xiaomi_mt6768-common -b dot device/xiaomi/mt6768-common
 
 git clone --depth 1 https://github.com/Burhanverse/android_kernel_xiaomi_mt6768 -b eleven kernel/xiaomi/mt6768
 cd kernel/xiaomi/mt6768
