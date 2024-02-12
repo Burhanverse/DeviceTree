@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES := \
    $(LOCAL_DIR)/lineage_lava.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineag_lava-user \
-    lineag_lava-userdebug \
-    lineag_lava-eng
+    lineage_lava-user \
+    lineage_lava-userdebug \
+    lineage_lava-eng
